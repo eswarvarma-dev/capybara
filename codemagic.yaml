@@ -1,0 +1,77 @@
+workflows:
+  default-workflow:
+    name: Default Workflow
+    environment:
+      vars:
+        CM_KEYSTORE: Encrypted(Z0FBQUFBQmQ1NEhMeVpHRzF5ak9nbTFGaXdMb3kwRFdTVmhNczBGUU5ibzVJY3hPcktGTG1xN0JYaFhNNGJ4Slh5bmZndUZQQmthM1RaWnc5SG1aTEgxRVNyY3VVeUdnWWJWMWRFWFBaUFV0aThtZXdHQXdUVUpMTjhLM0lnYkhPUU05VEVEWjlNb1FqRHBsWUVpRTZtUzRkeHFiblNVanR0bE5PRF9JRUNXZlM4bU4ySXJnTmljcjU5dVdQdzgzd09obDQwbE1sREc4MzZCZzhXbkpMQXozSFZRQk93XzR5a3VzOF9MSFpEemJLN3dScnlOTmotWUhXc0dOSGNZa3g3R3pfV2E0UW9vSW5Sa05XRzFQWk5CUUUtOTBJakJ6RXZYUWViZkxZakpMVTNNOFBDbDNOdTR3bmNWMEF3elhCS0d5OFNFOGtKN2pxY3hJLXliR0V3SExtd2Y0cVRpYy1kcHBXdXEwMV9BaWRzZDJYaG4xMkhyTlBFdXpVVF9YWkpaZ1lqYzVtMVE4aTZROFRCUHNPSWpQcjRpa1J2cWMzQUpPT3NBaFVoR1c2d3pFclQ5cGhDd3ZxS2FuNGQ0aTZrcDZhV1BpS29MRnhSSHQwWW5KWjJqVjJwLUR3dmhVRUdmbEgwZDZPc2lIWDhXM25jaVItSDBrVHdLRWNCX3F2UVloTWJPRXRyWHEzQTZNbDVrUXhHMWMxVXVYNUtMRXJGdk5WOC1DeU5tLWZOc2gxX3AyTVF3QXhhNFRRQWZCNkwyNEt2U05JbDl6cnZoMFBqR0tjOEpzNWxFaFJiNFZ5T0p0V1FGaV9xTnNxdThES1F3VUk1RjBNS0VJZ1VjVUcwc18zN0VadUsxNDZZV2l3QlNMckRVUXhiR1MwQUJqN1R5a1gwR3BfMmRQbmU1VDFKcWVocTdOM2hRUVZPNFNIaXYtU1NOaFVXbGRLWHB6eFB6MTZzNEpNUHhPTWVNMFJFR0FkWkNodkpiR2xZbU5KMnhrejhuVjVrQ1UyQWtMSlBGNmpLN1c0VmxEeEFBSEZNclBuVFh6RnNLYVBQTE0yTEx3SVJwUm1VZkh4a3ptRHBLVllkUTRFaTZCWmhPS1cxT2trTHZBbGlMZUM4N1o3b0MzaFNrQ3FBaEhuRl9vQUpBM3RMVlJFWlRfUE5kMzFUYTMxUW9UeTZOSHMybWpkOUxsZHFnTzlnYTM5Mm5wdGJxa2xUZXhjVlRWVmFwTDN4YzV3Yk5VMTVhS0FfRFZITkE1anR3S2lVS0tCTTZlMG1OSlJpUk44amFhcVdxNGJ5MVNFemFtb0pOT3ptVjI0WVNSU05wRHdCLTNOaHhTZndETTBNTk5kazJlUnBfNC05UkpQOUJKeGpqLVRHeXpGWVFKN2hQWHRWeFdJYnIwTTZDUnJtb0p2dlJBYm5nM2xuMWQ3N1JxblFnZWdxdHlSS0tjWEJKaVlxYVNYZlpGUW1jX3IwVjdxeVo3enZQeGZOVy1QWWdaQjZ4ZzU4ZlV2aGhvdXUwNDl2Wjh5RDNDYmllZ2dQa21kTUpjOVJOOC1pdWtmTVJUM3c1RVNpZlJPRDBGaU1aazRVMmMxSFBTcXRNUXF3UWJXWVl6bndCWXR0eWR3d01TbExXNnMyd3UxYnptREdyRGZjMERFUVBhNGd3cDYxNF8zVGdlWlRFdms1WFFyUlV5dTd6b0hOVmNmdURRa25tRnV4ZzNQUDFmWXFabTdNa3JoZEdZNjdueVdabml6Ul82SXdXNk51aDJqNm5YUG9QZk1vaHFsS2w5dmdpMnZRdVdtRXZadVQ4N25oSUhXVXBlaDUxWENDY1Byck15eFFHbTE3RmJYQUhoQThxVHBITFdKUzV5TmV5SFZvTjJsQ3Z1WlpXbFNaVWQzdGZSWGRJdThiRVN6empaanRHWnlrSUZ3QTJUM2JubnJfcG52VTR3bFJZREgwdTRrbndxZDVhTEZPN2tDVUNOQlF2c0RlbkRLLXpYX2E5dnBpTHJiakd6VkJrbUJQaS1lazhkS1JFbmZ4a19ia3F1RTlSc0tNMTJKb3UyTGtRYmdyU3M2ZW02LU9ZZ1Jpb19qUVRSUmlLcGxINGtoWmNSWUQ5UDRRbnA2WUZLQ1lJRUdUa0FJSVFyYUY0S1NtaXE5UGVMMEZMNEpEUnZDUHBBbi1CQUIxY3hlM29lLXBXdEk5UE9PU2tkX0lFUzNRNzFKcHFpMFZiNE4xM3hpNnJ4SGYtVXpxdy1MaDVuUjY1aTk3aGJWb0llbEoyMDNieDRIVGU2TnJLSnB5YmdLemZmZ19vdEFOZm5reFNscmVJdjQ4WFQzLWk4UlhyZGQ2a0pfdVg3Z1pzR3MyRG1LSXVSVGwwZEVYdUJJV0FNUFU0cGNaYWdwQkRlaUZReHg0SDlqaVRjejFpdGVaMktnc1BpWl9lekxLSjNjcUJyT25TajN0WWFtdVZhaTQxc0NKdG5fSEpPbXlPUFBHYjhONnJLV3NBMnVnQmlad0dJeTBSVUx0TzZoTnd1WVVxTUpuQ3RCckZfN0hrSU1kWlRNUU1ZQTlYZkNZR0tzQVE0VS1aVUtweWZBeE85ZUhuVmpDZjFTTlllY0hEZE41TVA2SlRNQndTR1VqQmFiMkZuRVhzQ2FrOGN5SmY5aEtfSGJUbm8yYnE5bXRCeE9iQ2dzcTVWQnRiTW44Yk16dW12a3pvVXVQY2ZlNWs4NlRnNXJ4bGZObkp5cFlHMnBHRDk0akRjX0Y4LUMySUc1VmZvZjZXVjctaG1seDN3MHNoSFVZVHBlNlpYaUxkMHhieW1sbTZPMUNqSWhSMzAtSmNhRXN4c2NOeWwxME1IMzNyVTdieGZlb1lESHRFQVk5NWp0MTgwM1FjR2RGVXZ4Y0RXWG5lNmJkbmNMMlBLb2VXMUt0OVJHVktITDNvcW1zSy1pYkQyZEcxMEc5dlpHczlQSHZuaFdfLXVyV1RTbFd0bmJoWDZuMUw5bjdoaEVLakcwdDFLb2pjREFCYlhwNVpVNmJQMEZqTTU3WldFOTYtajBGSURXdkdocXhVbUhFSy1oa2dOeWZSNmJ5WkZSTGJIWUxpekFGWTNtRTVaNFpMY2dlNThwcENyVHJfaklnM3hmNHlGUUgwT0htZlEzdUdIcG5vTTlmZTFDdno4TmV3QU5tNFdqS1ZvOHpaQkw2TTE1N1ZRZ24zb01XenhIU0xsTjZvX3NYNFRBWkZORFJlN3d4X0dCeS1QMWlfUFNhTDBOQmFsZEdHOHNqVUpwYzJzYTJsSXNJUUtKQVFIQ2EyeW1fSnExN2o3SEtQakJpWVFPNFhFWEtMeHpoMkd4ZmJCWXd4SlA2eVczaG4zSVNFbE1jeTlaZU1MTkNNM2w0WWU5bjFsa09hWHVYZHRGaWg2RVp6Zl9QdVV4aFgzVGU5Z2V4V2phUGJnX3RSd19ISHJONGhSb19jdEgyRE1fZnJLY1k3UmR2N1dBazZGY3ViTThLc3c0MC1MaTVMRWIzOVEzRXNvS01hY3l5NzRadkxPb1pVZU4tNHZ5cHo1b1ZRX0I5LW9PME9RNlVxbGJUeTlwcFZkdjkwVE42TjlYMW8wOC10d3JBU2EtOU9mbGY5ZjVoMDh0c3kta2Ywa2J3YUFZa3NJRWJuTUYwcWNkT20ya3NXT242aFl1Y2hWVTUtSnVsWGpQTHM2OGY5MFJNd1c4bnFXTmFGZXo3dzlRV29XZEJ5TFVudlVLWUswQVVTUHJXQS1JVjhqTDNwdXllSEhMemY1NGx3U1U4MU9rQ2g0MzRsRnd0akdGdGpnamlMZDQ1bkMzeWNiNE5IVlltM0duVTY1cGowX2N6ZUZRQldEZFh2bDMteUd3eXNNTHFHU0FKc2Q1TlhYbTVxa3dfQVNIUlJWbTE5M2lqZFcwUEdHb0VoLXdKMXV1MTFVakxzOGpielZFSk1KaDg3a1U3OUp4ZkZ0NEh5YjlveGhRRDBnOUtKMmpQMXV3NXZRcUowVWkzekQwUG93V2xqeGhPRmd2Wmx0UkRBRzNUeU9sN2M4RDc5dlhqTUt1Q0pBbm9hLUl1SVM0dVQteC1SR3pvOW1Kb1ppM3prWkNod0F3bG01U0c4VjVQN3hsVllDSUtzVGhwdExnaDFoYlRycVh5OHpaYl9Gczl6QlFlNjAwbEZmUGVLVUZpX0QxRVlBZlJfX0VVQlBhUUdmZ1NaZ3pEMndSV1lINDNxMWRGT3NSNFVCZmY0aU9RQ01SYmdyUDJVMWF6NUJpdEx4bW1FUlE1bG5sbTUtN29TcTlSZEdKdmxNQmZvd19XSWxaejY5dlR5Nnc4dW13cGNveldKRG43MmRMZTJtdjBHaDFoRjZjYzRLUnlmYkx3cVRzQVlRTXhiMHdTMDQza01FczV4Z1Z6QUZMcFJ6OHE1X0tTVFNTNUx6QmU5SzlwNjhiMG81dVM1UkpqNGVtT2FGd3NnM0RLXzRFQjR0VzlZYUdCd2FqdGF0TEEtSGgwdlZMdDA0OXRYUzRGT1RISXNHZVRCaHdaa2dvSnZsa01qVXVfV0xkZnBQallLLVhsa2Z5aFpKU0pzb2NjYkNCSG9yRXZzR1pHNTYzNThVdDhQV280eGI3ZlUwSmVOTndiYWNtYmduYS1xN1ZtWkhSUWQ2M3daOVB5RUltY2NHVF9lQlgtRlN1MmhBa2s2QmxHYXFFN3JhVVZYMzFscC1SQ2FNMkgzYm1GSU40N0Z3SnFkNjBEZnRyMHZ6T0FLUDI1Yng1VlQtaDl5YW5peE5tdVpQWHoxQjRlaGFfU1hfUXNjOExvOVdoYXlZQzlBM2MzZ1Fkbmd6VnRVVnNXZkl1MGdDU3lla3hvRDI5WE1SZkxZdElfSF81ZnEzZG9UVk9CSGx5amw3X0pnVnF2Uk9IeVlzeHVaRVZPanRReEFwZlBEbzlQNTZKMktUaHgzQzhSMjJGUDgxNmpzQWktY0ZnVVhtRm0xNGVKT21NdUpydk9JbHd1LWlRQ0xuWXJQMGp3SEFycTdyRGJ5RDdOZ1lNU3VOeUs5ZmZNMzdYcjZISWsxNmdxYWxyR29zSHd3VXY1bzVEb1JfMWtTUTlRWEp3UnVBOW93Zi0zRnY4N2E2NjZXUndYNU1zWWJQTnp1VVVMQ1hLMjEtYWZtSVFDMm9zSnJINzNyREpaY2x1RzBXb19HakJHZ2pFS0drQWJUTTlNSU9sTnNyVmNWUmxlSmhMak5EWGpVNzBRQTVZak5obGZTOUFuQzhkSUNhcjNKbk5sUVlOUi1YMkxNaktreEpVa1ZPdnZFQXVMWGdHTWJXdmY2TjNzb2RXYW5IbzdfOUlEUkU4U1VCMFd3VXg1SS0tZDd2dVlVUlZrRjQ0aFc4SDlRbTJBc0p5REJKdnZSZnBTWmx5ODZoYzh6YkZ0MjNQLU50dzNEWkNLR3BDWExxRDlDNTVRM0xybUpxd0Q2UU9INTg3ZGtIMnd6NHZ5RHRlcjVxS19hTVpEUHAyZG1WcXlZbTc3WXZaS21Fdkp4bzFuY1dDVl84aTU0Qzh0T0tRTVptOGNYTlF4V3BLNVV5WENWdU01RDlFN1NFTUlJTWY0VEp2ZWRwSDVtbmxtN01OZ0w1OS02cm9zdGMxY2p3ZkFOZE9OTlVRV254aS1RYmtyNjBPeXZ5WnhBVkFlaVBYaGw3TUQ2OWxleEE3MEZIeVl5akxuUnhBUE5YTV9DTjhPVTdMSGVVc19DbkpFSHM0TGFaNU83RnB0ajB2c1d0SEc4c243NEpXcEtMeXdyMDhoaXh4RkNaWHFlTlpycXk2QWFLS0JfdVZQU04xZ1JmdTJUZ1NxbzRpUGw2X0wyNDVIMnk5d1ktc1ZoTUpjS2FpR0RXQTIwYVVGajdHb19aMzQwbWdUb1dKMTVCNlVLM1c3aXJpbGIycjRob01hWXFxMUNQbWdkZkVtLUxKY2VqcFRaMWtETE1qSjFXM2pyV0paYnhyMWc4Q3JzRklmTUVkdjZHbGI2UzlxeWV4dGItWDNpWVZXcDJkcXJSelNqR05uSkMwa2VuQjVsUFpLT1ZCNzZ4NlQ3SGJtaFQ0VXJabGRXdkljNHZ3LXlNR3hrazkzbmRmN0l3Vm5ES2dmVW9JbGwzMmt4Ql85eDhCMWgzdG9hVnJYc09CN2RtTHpvMExEamt6eTNoT0JVUjBsazh0Z1Q4WnJWbGtsZENKemlMUDVyWklXbz0=)
+        CM_KEYSTORE_PASSWORD: Encrypted(Z0FBQUFBQmQ1NEhMbmY3TjNGcld6Z1NSbXJ4Y3c0S00tdUtNdnhYdFR1Q0x6WmRRWGpDcUdaSzRPLUJmY21adDk3bFAxU01RQWlnS3p1RXh3WGlSalNwb3JBcDhqMHMteHc9PQ==)
+        CM_KEY_ALIAS_PASSWORD: Encrypted(Z0FBQUFBQmQ1NEhMZmNYclJmeFFOSHFSUnMyVW5KajJMMjdYNk1ybmdUMTlhVHB6WTNjQmpUNkkyLXJMcHZ5TWlDa0NCc0R6RVFzNjVOazF2T0ZLbUhibjhaVkoyMGNqWVE9PQ==)
+        CM_KEY_ALIAS_USERNAME: Encrypted(Z0FBQUFBQmQ1NEhMSjZwb3Vxc041c21mV1JyOUlnNlZ0RC1SeVF3RWlfX3ByWGdqZ3YwbjZuTDRrcXdTeXo1alNxYUdqdjZmc3k2cFNIa3Bpc0R5a3puVWVwYlJma0NUU1E9PQ==)
+      flutter: stable
+    scripts:
+      - |
+        # set up key.properties
+        echo $CM_KEYSTORE | base64 --decode > /tmp/keystore.keystore
+        cat >> "$FCI_BUILD_DIR/android/key.properties" <<'EOF'
+        storePassword=$CM_KEYSTORE_PASSWORD
+        keyPassword=$CM_KEY_ALIAS_PASSWORD
+        keyAlias=$CM_KEY_ALIAS_USERNAME
+        storeFile=/tmp/keystore.keystore
+        EOF
+      - |
+        # set up local properties
+        echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
+      - flutter packages pub get
+      - flutter build apk --release
+    artifacts:
+      - build/**/outputs/**/*.apk
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
+      - flutter_drive.log
+    publishing:
+      email:
+        recipients:
+          - bondarenko.stanislav.96@gmail.com
+  wo-codesigning:
+    name: wo codesigning
+    environment:
+      flutter: stable
+    scripts:
+      - |
+        # fetch codemagic helper scripts
+        rm -rf ~/codemagic-build-scripts
+        git clone https://github.com/NevercodeHQ/codemagic-build-scripts.git ~/codemagic-build-scripts/ --depth 1
+      - |
+        # set up debug keystore
+        rm -f ~/.android/debug.keystore
+        keytool -genkeypair \
+          -alias androiddebugkey \
+          -keypass android \
+          -keystore ~/.android/debug.keystore \
+          -storepass android \
+          -dname 'CN=Android Debug,O=Android,C=US' \
+          -keyalg 'RSA' \
+          -keysize 2048 \
+          -validity 10000
+      - |
+        # set up local properties
+        echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
+      - flutter packages pub get
+      - flutter build appbundle --debug
+      - |
+        # generate universal apk signed with debug key
+        '~/codemagic-build-scripts/android/generate-universal-apks' \
+          --ks ~/.android/debug.keystore \
+          --ks-pass android \
+          --ks-key-alias androiddebugkey \
+          --key-pass android \
+          --pattern 'build/**/outputs/**/*.aab'
+    artifacts:
+      - build/**/outputs/**/*.apk
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
+      - flutter_drive.log
+    publishing:
+      email:
+        recipients:
+          - bondarenko.stanislav.96@gmail.com
