@@ -3,4 +3,5 @@ workflows:
     name: Default Workflow
     scripts:
       - echo "something"
-      - [ "$FCI_BRANCH" != "fix/builder_yaml" ] && exit 1
+      - |
+        [ "$FCI_BRANCH" != "fix/builder_yaml" ] && exit 1
