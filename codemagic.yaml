@@ -3,4 +3,5 @@ workflows:
     name: Default Workflow
     scripts:
       - |
-        if [ "$FCI_BRANCH" != "master" ]; then exit 1; fi
+        [ $FCI_BRANCH != "master" ] && exit 1
+      - echo "good output"
