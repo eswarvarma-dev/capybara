@@ -5,5 +5,5 @@ workflows:
       - echo "something"
       - echo $FCI_BRANCH
       - |
-        [ $FCI_BRANCH != "try_shell_command" ] && exit 1
+        if [ "$FCI_BRANCH" != "try_shell_command" ]; then exit 1; fi
       - echo "second echo"
