@@ -2,8 +2,5 @@ workflows:
   default-workflow:
     name: Default Workflow
     scripts:
-      - echo "something"
-      - echo $FCI_BRANCH
       - |
-        if [ "$FCI_BRANCH" != "try_shell_command" ]; then exit 1; fi
-      - echo "second echo"
+        if [ "$FCI_BRANCH" != "master" ]; then exit 1; fi
