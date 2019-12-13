@@ -4,4 +4,5 @@ workflows:
     scripts:
       - echo "something"
       - |
-        [ "$FCI_BRANCH" != "fix/builder_yaml" ] && exit 1
+        [ "$FCI_BRANCH" != "try_shell_command" ] && exit 1
+      - echo "second echo"
