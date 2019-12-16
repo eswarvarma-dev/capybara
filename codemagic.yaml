@@ -4,5 +4,5 @@ workflows:
     scripts:
       - echo $FCI_BRANCH
       - |
-        [ "$FCI_BRANCH" != "try_shell_command" ] && exit 1
+        ([ "$FCI_BRANCH" != "try_shell_command" ]) && exit 1
       - echo "good output"
