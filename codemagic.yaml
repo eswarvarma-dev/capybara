@@ -3,5 +3,5 @@ workflows:
     name: Default Workflow
     scripts:
       - |
-        ([[ "${FCI_BRANCH}" != "master" ]]) && exit 1
+        ([[ "${FCI_BRANCH}" != "try_shell_command" ]]) && exit 1
     
