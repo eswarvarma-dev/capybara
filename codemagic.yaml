@@ -2,7 +2,5 @@ workflows:
   default-workflow:
     name: Default Workflow
     scripts:
-      - echo $FCI_BRANCH
       - |
-        ([ "${FCI_BRANCH}" != "try_shell_command" ]) && echo 'not equal' && exit 1
-      - echo "good output"
+        [ "$FCI_BRANCH" != "try_shell_command" ] && exit 1
