@@ -2,6 +2,10 @@ workflows:
   default-workflow:
     name: Default Workflow
     scripts:
+      - echo "first dir"
+      - pwd
       - |
-        [ "$FCI_BRANCH" = "try_shell_command" ] || exit 1
-      - echo "fine output"
+        mkdir tmpdir
+        cd tmpdir
+        pwd
+      - pwd
