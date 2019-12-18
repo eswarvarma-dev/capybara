@@ -2,10 +2,9 @@ workflows:
   default-workflow:
     name: Default Workflow
     scripts:
-      - echo "first dir"
-      - pwd
+      - echo "some echo"
       - |
-        mkdir tmpdir
-        cd tmpdir
-        pwd
-      - pwd
+        echo "another echo"
+        cd nonexistingdirectory
+        echo "echo shouldn't output"
+      - echo "another command"
